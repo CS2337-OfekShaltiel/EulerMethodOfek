@@ -23,9 +23,9 @@ class Main {
   {
    
   double y = y0;
-  for(double x=x0;x<xEnd-0.01;x+=stepSize){
+  for(double x = x0;x < xEnd-0.01;x+= stepSize){
     x = Math.round(x*10)/10.0;
-    y+= stepSize * differentialEquationEvaluator(xSquaredCoeff, xCoeff, constant, x);
+    y+= stepSize * differentialEquationEvaluator( xSquaredCoeff, xCoeff, constant, x);
 }
 
 
